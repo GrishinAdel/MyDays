@@ -42,7 +42,6 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingBottom="20dp"
             android:orientation="vertical">
 
             <androidx.fragment.app.FragmentContainerView
@@ -56,9 +55,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
-                app:layout_constraintBottom_toBottomOf="parent"
                 tools:listitem="@layout/pattern_writing_day_with_achievement_and_thoughts"
-                android:paddingBottom="20dp"/>
+                android:layout_marginBottom="60dp"/>
         </LinearLayout>
     </ScrollView>
 

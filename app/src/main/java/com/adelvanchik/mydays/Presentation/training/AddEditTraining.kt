@@ -120,7 +120,7 @@ class AddEditTraining : Fragment() {
 
         fun newInstance(id: Int = DEFAULT_DATA_VALUE) = AddEditTraining().apply {
             arguments = Bundle().apply {
-                putInt(KEY_DATA, DEFAULT_DATA_VALUE)
+                putInt(KEY_DATA, id)
             }
         }
     }
